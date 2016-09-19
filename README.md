@@ -51,7 +51,7 @@ PRs are always welcome. Please fork, and make necessary modifications you propos
 
 If you have questions or suggestions, feel free to post at:
 
-https://groups.google.com/forum/#!forum/zrlio-users (https://groups.google.com/forum/#%21forum/zrlio-users)  (https://groups.google.com/forum/#%21forum/zrlio-users) 
+https://groups.google.com/forum/#!forum/zrlio-users
 
 or email: zrlio-users@googlegroups.com  
 
