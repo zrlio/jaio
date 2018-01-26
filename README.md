@@ -6,6 +6,7 @@ A Java API for libaio.
 
 - Build libjaio:
 ```bash
+cd libjaio
 mkdir Release
 cd Release
 cmake -DCMAKE_BUILD_TYPE=RELEASE ..
