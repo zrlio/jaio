@@ -8,7 +8,7 @@ A Java API for libaio.
 ```bash
 mkdir Release
 cd Release
-cmake -DCMAKE_BUILD_TYPE=RELEASE ..
+cmake -DCMAKE_BUILD_TYPE=RELEASE ../libjaio/
 ```
 - Build jaio:
 ```bash
