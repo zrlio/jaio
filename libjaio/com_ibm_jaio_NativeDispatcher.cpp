@@ -138,3 +138,64 @@ JNIEXPORT void JNICALL Java_com_ibm_jaio_NativeDispatcher_close
     }
 }
 
+/*
+ * Class:     com_ibm_jaio_NativeDispatcher
+ * Method:    o_direct
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_ibm_jaio_NativeDispatcher_o_1direct
+  (JNIEnv *, jclass) {
+    return O_DIRECT;
+}
+
+/*
+ * Class:     com_ibm_jaio_NativeDispatcher
+ * Method:    o_rdonly
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_ibm_jaio_NativeDispatcher_o_1rdonly
+  (JNIEnv *, jclass) {
+    return O_RDONLY;
+}
+
+/*
+ * Class:     com_ibm_jaio_NativeDispatcher
+ * Method:    o_wronly
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_ibm_jaio_NativeDispatcher_o_1wronly
+  (JNIEnv *, jclass) {
+    return O_WRONLY;
+}
+
+/*
+ * Class:     com_ibm_jaio_NativeDispatcher
+ * Method:    o_rdwr
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_ibm_jaio_NativeDispatcher_o_1rdwr
+  (JNIEnv *, jclass) {
+    return O_RDWR;
+}
+
+/*
+ * Class:     com_ibm_jaio_NativeDispatcher
+ * Method:    o_dsync
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_ibm_jaio_NativeDispatcher_o_1dsync
+  (JNIEnv *, jclass) {
+    return O_DSYNC;
+}
+
+/*
+ * Class:     com_ibm_jaio_NativeDispatcher
+ * Method:    o_sync
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_ibm_jaio_NativeDispatcher_o_1sync
+  (JNIEnv *, jclass) {
+    return O_SYNC;
+}
+
+
