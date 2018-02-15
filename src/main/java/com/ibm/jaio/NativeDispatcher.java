@@ -41,4 +41,16 @@ class NativeDispatcher {
 	static native int open(String path, int flags) throws IOException;
 
 	static native void close(int fd) throws IOException;
+
+	static native int o_direct();
+
+	static native int o_rdonly();
+
+	static native int o_wronly();
+
+	static native int o_rdwr();
+
+	static native int o_dsync();
+
+	static native int o_sync();
 }

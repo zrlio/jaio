@@ -30,12 +30,12 @@ public class File {
 	private final Path path;
 
 	static class LinuxFlags {
-		final static int O_RDONLY = 00000000;
-		final static int O_WRONLY = 00000001;
-		final static int O_RDWR = 00000002;
-		final static int O_DIRECT = 00040000;
-		final static int O_DSYNC = 00010000;
-		final static int O_SYNC = 00010000 | O_DSYNC;
+		final static int O_RDONLY = NativeDispatcher.o_rdonly();
+		final static int O_WRONLY = NativeDispatcher.o_wronly();
+		final static int O_RDWR = NativeDispatcher.o_rdwr();
+		final static int O_DIRECT = NativeDispatcher.o_direct();
+		final static int O_DSYNC = NativeDispatcher.o_dsync();
+		final static int O_SYNC = NativeDispatcher.o_sync();
 
 		static int toFlags(OpenOption... options) {
 			boolean read = false;

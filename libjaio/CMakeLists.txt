@@ -11,6 +11,6 @@ add_compile_options("-Wall")
 add_compile_options("-Werror")
 
 add_library(jaio SHARED com_ibm_jaio_NativeDispatcher.cpp)
-set_target_properties(jaio PROPERTIES SOVERSION "0.1")
+set_target_properties(jaio PROPERTIES SOVERSION "0.2")
 install(TARGETS jaio LIBRARY DESTINATION lib)
 
